@@ -17,5 +17,9 @@ while last_name!='zzz':
     gpa = float(input('GPA :'))
 
     #check gpa for honor roll or deans list
-#test
-a=123
+    if gpa >= 3.5:
+        print(first_name + " " + last_name + " has made the Deans list!")
+    elif gpa >= 3.25:
+        print(first_name + " " + last_name + " has made the Honor Roll!")
+    else:
+        print(first_name + " " + last_name + " did not obtain an honor ranking")
